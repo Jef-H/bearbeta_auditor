@@ -1,48 +1,25 @@
 #### bearbeta open source projects!
 
 
-## Installation
-
-To install all of the template files, run the following script from the root of your project's directory:
-
-```
-bash -c "$(curl -s https://raw.githubusercontent.com/CFPB/development/main/open-source-template.sh)"
-```
-
-----
-
-# bearbeta
-
-**Description**:  it is common prcatice for companies to use resume scanners to screen out candidates from their employement processes. 
-Those scanners are often pay to play. 
-Building an open source scanner to give tips to applicants is one small attempt at leveling the field of play so everyone can have a fair assessment. 
-
-Other things to include:
-
-  - **Technology stack**: still calculating, but I'm thinking heavy in python, and then hosting it with lamda functions. 
-  - **Status**: WAY Before beta. 
+## Welcome!
+Hey this repo is just a quick way to show you how easy it is to get started systematically improving your python repo. If you aren't using an autoformatter and a linter yet. Then I'd really suggest defaulting pylint + blackautoformatter. you can install these in vscode from the plugins page if that's your IDE of choice. 
 
 
-## Dependencies
+# All this does: 
 
-YES, TBD
+This repo does a few things.
+1. installs dependencies
+2. runs blackautoformatter to format code 
+3. runs isort
+4. runs pylint after the formatters.
 
-## Installation
+if you care about the improvement from original code to new code you could run pylint on another branch of your repo and see the increase/decrease in score. 
 
-lololol not quite yet. 
+pip install -r requirements.txt
+python -m black ./ > logs/blacklog.txt
+python -m isort ./ > logs/isort.txt
+python -m pylint ./ > logs/pylintlog.txt
 
-
-## Usage
-
-Usage would hopefully look like, give your resume destination, give your job posting file destination, and then wait for output. 
-
-## How to test the software
-
-run smoketest.py from the base dir. 
-
-## Known issues
-
-known issues right now stem from existence (and lack thereof) 
 
 ## Getting help  & Getting involved 
 
