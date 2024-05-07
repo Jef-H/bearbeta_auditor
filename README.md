@@ -1,4 +1,6 @@
 #### bearbeta open source projects!
+more info about bearbeta https://bearbeta.org/
+https://bearbeta.org/research/f/4-easy-commands-to-show-your-code-coworkers-you-care
 
 
 ## Welcome!
