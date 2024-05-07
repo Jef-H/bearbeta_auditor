@@ -1,0 +1,11 @@
+************* Module bearbeta.src.hello_world
+src\hello_world.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+src\hello_world.py:1:0: E0401: Unable to import 'numpy' (import-error)
+src\hello_world.py:2:0: E0401: Unable to import 'pandas' (import-error)
+src\hello_world.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+src\hello_world.py:1:0: W0611: Unused import numpy (unused-import)
+src\hello_world.py:2:0: W0611: Unused import pandas (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 3.33/10, -3.33)
+
