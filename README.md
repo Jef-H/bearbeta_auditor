@@ -15,10 +15,15 @@ This repo does a few things.
 
 if you care about the improvement from original code to new code you could run pylint on another branch of your repo and see the increase/decrease in score. 
 
+
 pip install -r requirements.txt
+
 python -m black ./ > logs/blacklog.txt
+
 python -m isort ./ > logs/isort.txt
+
 python -m pylint ./ > logs/pylintlog.txt
+
 
 
 ## Getting help  & Getting involved 
